@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ANISH</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="left-container">
+                <div class="text-container">
+                    <h1 class="name">ANISH UPADHYAY</h1>
+                </div>
+            </div>
+            <div class="right-container">
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="box" id="home">
+            <div class="profile-section">
+                <div class="profile-image">
+                    <img src="photo.jpg" alt="Your Photo">
+                </div>
+                <div class="profile-text">
+                    <h1 class="name">ANISH UPADHYAY</h1>
+                    <p class="praise">Passionate Programmer, Creative Innovator, and Coding Enthusiast</p>
+                    <p class="praise">Hi! Welcome to my personal website. I can built web-Portfolio for you. Wanna have me to build your websites then contact me. </p>      
+                </div>
+            </div>
+        </div>
+
+        <div class="box" id="projects">
+            <h1>My Projects</h1>
+            <ul>
+                <li><a href="#">Project 1</a></li>
+                <iframe src="https://ghbtns.com/github-btn.html?user=nepard&repo=Calculator-With-Python&type=star&count=true" frameborder="0" scrolling="0" width="170" height="20" title="Star on GitHub"></iframe>
+                <a href="https://github.com/nepard/Calculator-With-Python" target="_blank">View on GitHub</a>
+
+                <li><a href="#">Project 2</a></li>
+                <iframe src="https://ghbtns.com/github-btn.html?user=nepard&repo=Fidget-Spinner-Game&type=star&count=true" frameborder="0" scrolling="0" width="170" height="20" title="Star on GitHub"></iframe>
+                <a href="https://github.com/nepard/Fidget-Spinner-Game" target="_blank">View on GitHub</a>
+                
+                <li><a href="#">Project 3</a></li>
+                <iframe src="https://ghbtns.com/github-btn.html?user=nepard&repo=Music-Player&type=star&count=true" frameborder="0" scrolling="0" width="170" height="20" title="Star on GitHub"></iframe>
+                <a href="https://github.com/nepard/Music-Player" target="_blank">View on GitHub</a>
+                
+                <li><a href="#">Project 4</a></li>
+                <iframe src="https://ghbtns.com/github-btn.html?user=nepard&repo=Alarm&type=star&count=true" frameborder="0" scrolling="0" width="170" height="20" title="Star on GitHub"></iframe>
+                <a href="https://github.com/nepard/Alarm" target="_blank">View on GitHub</a>
+
+
+            </ul>
+        </div>
+
+<!-- ... (previous HTML remains unchanged) -->
+
+<div class="box" id="skills">
+    <h1>My Skills</h1>
+    <div class="skills-row">
+        <div class="skill">
+            <div class="skill-image">
+                <img src="python_photo.jpg" alt="Python">
+            </div>
+            <div class="skill-text">
+                <h3>Python</h3>
+                <p>I have expertise in Python programming language.</p>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-image">
+                <img src="django_photo.jpg" alt="Django">
+            </div>
+            <div class="skill-text">
+                <h3>Django</h3>
+                <p>I am proficient in the Django web framework.</p>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-image">
+                <img src="html_photo.jpg" alt="HTML">
+            </div>
+            <div class="skill-text">
+                <h3>HTML</h3>
+                <p>I have strong skills in HTML markup language.</p>
+            </div>
+        </div>
+        <div class="skill" >
+            <div class="skill-image">
+                <img src="css_photo.jpg" alt="CSS">
+            </div>
+            <div class="skill-text" >
+                <h3>CSS</h3>
+                <p>I am proficient in styling web pages using CSS.</p>
+            </div>
+        </div>
+        <div class="skill" id="C">
+            <div class="skill-image">
+                <img src="c_photo.jpg" alt="C">
+            </div>
+            <div class="skill-text" id="C">
+                <h3>C</h3>
+                <p>I have programming skills in the C programming language.</p>
+            </div>
+        </div>
+        <!-- Add more skills as needed -->
+    </div>
+</div>
+
+    <footer>
+        <p>Contact: anish03025@gmail.com | &copy; 2023 ANISH UPADHYAY. All rights reserved. | Designed by ANISH</p>
+    </footer>
+
+    <!-- JavaScript for smooth scrolling -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
