@@ -289,4 +289,39 @@ nav {
 .skill#C {
    margin-right: 21.25rem;
 } 
+@media only screen and (max-width: 480px) {
+    header {
+        height: 3rem;
+        padding: 0.25em 0;
+    }
+
+    .box {
+        margin-top: 0.5rem;
+        padding: 1.5rem;
+    }
+
+    .name {
+        font-size: 1.2em;
+    }
+
+    .box#home {
+        margin-top: 3.875rem;
+        padding: 3.375rem;
+    }
+
+    .box#projects {
+        padding: 2.8rem;
+        margin-top: 0.5rem;
+    }
+
+    .box#skills {
+        padding: 3.5rem;
+        margin-top: 0.75rem;
+    }
+
+    footer {
+        padding: 0.25rem 0;
+    }
+}
+
 
